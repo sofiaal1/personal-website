@@ -2,6 +2,7 @@ import './App.css';
 import HorizontalNavbar from './components/HorizontalNavbar';
 import VerticalNavbar from './components/VerticalNavbar';
 import AboutMeSection from './components/AboutMeSection';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -10,29 +11,10 @@ function App() {
       <div className="Main">
         <HorizontalNavbar/>
         <AboutMeSection/>
+        <Projects/>
       </div>
     </div>
   );
 }
 
 export default App;
-
-/**
- * <a
-          // className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
- */
