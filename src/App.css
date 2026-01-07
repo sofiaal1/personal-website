@@ -77,13 +77,12 @@
 
 /* About me section styling */
 .Row-layout {
-  min-height: 100vh;
   min-height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  gap: 20px;
-  padding: 50px;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 70px;
 }
 
 .Column-layout {
@@ -92,16 +91,23 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px;
+  gap: 10px;
   color: black;
 }
 
 .Headshot {
   width: 300px;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.About-text {
+  margin-top: -0.5rem;
+  line-height: 1.6;
+  max-width: 500px;
 }
 
 .App-header {
