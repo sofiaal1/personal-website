@@ -1,10 +1,16 @@
 import './App.css';
 import HorizontalNavbar from './components/HorizontalNavbar';
+import VerticalNavbar from './components/VerticalNavbar';
+import AboutMeSection from './components/AboutMeSection';
 
 function App() {
   return (
-    <div className="App">
-      <HorizontalNavbar/>
+    <div className="Layout">
+      <VerticalNavbar/>
+      <div className="Main">
+        <HorizontalNavbar/>
+        <AboutMeSection/>
+      </div>
     </div>
   );
 }

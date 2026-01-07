@@ -3,29 +3,19 @@
   min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.Layout {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #282c34;
 }
 
+.Main {
+  flex: 1;
+  padding-left: 0.5rem;
+}
+
+/* Horizontal Navbar Styling */
 .Horizontal-navbar {
   min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -48,15 +38,82 @@
   transform: scale(1.2);
 }
 
-.App-link {
-  color: #61dafb;
+/* Vertical Navbar Styling */
+
+.Vertical-navbar {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 50px;
+  padding-top: 100px;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hero heading styling */
+
+.Hero-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  display: inline-flex;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+/* soft light-purple background behind the text */
+.Hero-highlight {
+  background: linear-gradient(
+    120deg,
+    rgba(217, 191, 255, 0.25),
+    rgba(196, 163, 255, 0.4)
+  );
+  padding: 0.25em 0.5em;
+  border-radius: 12px;
+}
+
+/* About me section styling */
+.Row-layout {
+  min-height: 100vh;
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 50px;
+}
+
+.Column-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  color: black;
+}
+
+.Headshot {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
 }
