@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HorizontalNavbar from './components/HorizontalNavbar';
 import VerticalNavbar from './components/VerticalNavbar';
 import AboutMeSection from './components/AboutMeSection';
