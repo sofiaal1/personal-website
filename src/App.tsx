@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HorizontalNavbar from './components/HorizontalNavbar';
 import VerticalNavbar from './components/VerticalNavbar';
 import AboutMeSection from './components/AboutMeSection';
@@ -9,7 +9,7 @@ import CAssemblyProjects from './components/CAssemblyProjects';
 
 function App() {
   return (
-    <Router basename="/personal-website">
+    <Router>
       <div className="Layout">
         <VerticalNavbar />
         <div className="Main">
@@ -20,8 +20,8 @@ function App() {
               element={
                 <>
                   <AboutMeSection />
-                  <Skills />
                   <Projects />
+                  <Skills />
                 </>
               }
             />
