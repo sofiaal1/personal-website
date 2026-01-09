@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.90bc1cd0.css",
+    "main.js": "/personal-website/static/js/main.2615bf43.js",
+    "static/media/headshot.jpg": "/personal-website/static/media/headshot.6211c863ab61288d649f.jpg",
+    "static/media/cinelogImage.png": "/personal-website/static/media/cinelogImage.8074e810816063910081.png",
+    "static/media/villageFoodHubImage.png": "/personal-website/static/media/villageFoodHubImage.434f867ad7aaf845741b.png",
+    "static/media/cs40Image.png": "/personal-website/static/media/cs40Image.25725ae2dad9b27f3653.png",
+    "static/media/filmSocietyImage.png": "/personal-website/static/media/filmSocietyImage.2f636049ec1e1203e779.png",
+    "static/media/jumbuddyImage.png": "/personal-website/static/media/jumbuddyImage.478a77ce23a8e0f27406.png",
+    "static/media/c2payImage.png": "/personal-website/static/media/c2payImage.0515bed66b1c7ad81880.png",
+    "static/media/linkedin-logo.svg": "/personal-website/static/media/linkedin-logo.c5f7c80a4f858f8356d49cb775eb88ae.svg",
+    "index.html": "/personal-website/index.html",
+    "static/media/github-logo.svg": "/personal-website/static/media/github-logo.a2dcecaacdba94077f71818776dd805b.svg",
+    "static/media/gmail-logo.svg": "/personal-website/static/media/gmail-logo.cf6e9da6207069eaa596237538127bcb.svg",
+    "main.90bc1cd0.css.map": "/personal-website/static/css/main.90bc1cd0.css.map",
+    "main.2615bf43.js.map": "/personal-website/static/js/main.2615bf43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90bc1cd0.css",
+    "static/js/main.2615bf43.js"
+  ]
+}
