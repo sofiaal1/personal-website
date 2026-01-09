@@ -4,24 +4,27 @@ import HorizontalNavbar from './components/HorizontalNavbar';
 import VerticalNavbar from './components/VerticalNavbar';
 import AboutMeSection from './components/AboutMeSection';
 import Projects from './components/Projects';
-import CAssemblyProjects from './components/CAssemblyProjects';
 import Skills from './components/Skills';
+import CAssemblyProjects from './components/CAssemblyProjects';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/personal-website">
       <div className="Layout">
         <VerticalNavbar />
         <div className="Main">
           <HorizontalNavbar />
           <Routes>
-            <Route path="/" element={
-              <>
-                <AboutMeSection />
-                <Projects />
-                <Skills />
-              </>
-            } />
+            <Route
+              path="/"
+              element={
+                <>
+                  <AboutMeSection />
+                  <Skills />
+                  <Projects />
+                </>
+              }
+            />
             <Route path="/projects/c-assembly" element={<CAssemblyProjects />} />
           </Routes>
         </div>
