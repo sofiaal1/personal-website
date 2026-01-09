@@ -4,6 +4,8 @@ import c2payImage from "../images/c2payImage.png";
 import cinelogImage from "../images/cinelogImage.png";
 import filmSocietyImage from "../images/filmSocietyImage.png";
 import cs40Image from "../images/cs40Image.png";
+import villageFoodHubImage from "../images/villageFoodHubImage.png";
+import jumbuddyImage from "../images/jumbuddyImage.png";
 
 const projectsData = [
     {
@@ -15,7 +17,7 @@ const projectsData = [
         image: c2payImage,
         githubLink: "https://github.com/sofiaal1/C2Pay",
         devpostLink: "https://devpost.com/software/c2pay?_gl=1*1isr26i*_gcl_au*MTkzMzUwNDAxNy4xNzY3NTM5NDcw*_ga*MTc1NTI0MTIyOS4xNzY3NTM5NDcw*_ga_0YHJK3Y10M*czE3Njc5MTE2ODckbzIkZzEkdDE3Njc5MTIyNjUkajYwJGwwJGgw",
-        award: "Winner of Best Financial Hack @ HackHarvard",
+        award: "Winner of Best Financial Hack @ HackHarvard '25",
     },
     {
         id: 2,
@@ -41,7 +43,7 @@ const projectsData = [
         name: "Film Society Database Management System",
         tech: "React, Supabase (PostgreSQL), Figma, Git, Vercel",
         description:
-            "A web app that serves as a portal and database management system for school chapters of film honor societies",
+            "A web app that serves as a portal and database management system for school chapters of film honor societies.",
         image: filmSocietyImage,
         githubLink: "https://github.com/kubsgok/Honor-Society-Of-Cinematic-Arts",
         databaseLink: "https://www.figma.com/design/2YJyjg48ZRYbaQifVLEAcE/Entity-Relationship-Diagram-Template--Community-?node-id=0-1&p=f&t=p3xl0pMHHvvsAQQt-0",
@@ -49,22 +51,23 @@ const projectsData = [
     {
         id: 5,
         name: "JumboCode: Village Food Hub",
-        tech: "React, Supabase (PostgreSQL), Figma, Git, Vercel",
+        tech: "Typescript, React, Neon (PostgreSQL), Prisma, Next.js",
         description:
-            "A web app that serves as a portal and database management system for school chapters of film honor societies",
-        image: filmSocietyImage,
-        githubLink: "https://github.com/kubsgok/Honor-Society-Of-Cinematic-Arts",
-        databaseLink: "https://www.figma.com/design/2YJyjg48ZRYbaQifVLEAcE/Entity-Relationship-Diagram-Template--Community-?node-id=0-1&p=f&t=p3xl0pMHHvvsAQQt-0",
+            "I worked with a team of developers to create a web app that that keeps track of the org's pantry inventory and collects demographics of the food pantry customers.",
+        image: villageFoodHubImage,
+        githubLink: "https://github.com/JumboCode/village-food-hub",
+        presentationLink: "https://jumbocode.org/projects/village-food-hub",
     },
     {
         id: 6,
         name: "JumBuddy",
-        tech: "React, Supabase (PostgreSQL), Figma, Git, Vercel",
+        tech: "React Native, Expo, Figma, Airtable",
         description:
-            "A web app that serves as a portal and database management system for school chapters of film honor societies",
-        image: filmSocietyImage,
-        githubLink: "https://github.com/kubsgok/Honor-Society-Of-Cinematic-Arts",
-        databaseLink: "https://www.figma.com/design/2YJyjg48ZRYbaQifVLEAcE/Entity-Relationship-Diagram-Template--Community-?node-id=0-1&p=f&t=p3xl0pMHHvvsAQQt-0",
+            "A mobile app that allows Tufts students to meet other students based on shared interests and classes, and post and join events at Tufts.",
+        image: jumbuddyImage,
+        githubLink: "https://github.com/rakshitranga/jumbuddy",
+        devpostLink: "https://devpost.com/software/jumbuddy?_gl=1*efz72v*_gcl_au*MTkzMzUwNDAxNy4xNzY3NTM5NDcw*_ga*MTc1NTI0MTIyOS4xNzY3NTM5NDcw*_ga_0YHJK3Y10M*czE3Njc5MjUxOTckbzMkZzEkdDE3Njc5MjUyMTUkajQyJGwwJGgw",
+        award: "Built @ Tufts JumboHack '25",
     },
 ];
 
