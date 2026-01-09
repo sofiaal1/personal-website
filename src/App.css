@@ -7,8 +7,10 @@
 
 .Main {
   flex: 1;
-  padding-left: 0.5rem;
+  padding-left: 50px;
   overflow-y: auto;
+  margin-left: 200px; /* match navbar width */
+  width: calc(100% - 200px);
 }
 
 /* Horizontal Navbar Styling */
@@ -81,20 +83,18 @@
 /* Vertical Navbar Styling */
 
 .Vertical-navbar {
-  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100vh;
+  width: 200px;
+  padding: 32px 20px;
+  background: #ffffff;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 40px 30px;
-  background-color: #f8f9fa;
-  position: sticky;
-  top: 0;
-  align-self: flex-start;
-  border-right: 1px solid #e0e0e0;
-  overflow-y: auto;
+  gap: 14px;
+  z-index: 1000;
 }
 
 .Vertical-navbar p {
@@ -387,4 +387,30 @@
 .Skills-item strong {
   font-weight: 700;
   color: black;
+}
+
+.Nav-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.Nav-link:hover {
+  text-decoration: underline;
+}
+
+.Navbar-name {
+  margin: 0 0 24px 0;
+  font-size: 1.8rem; /* was 1.35rem */
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  background: linear-gradient(120deg, #9b7fd4, #8566c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: transform 0.2s ease, filter 0.2s ease;
 }

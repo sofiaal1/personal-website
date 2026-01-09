@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 
@@ -45,6 +46,10 @@ const cAssemblyProjectsData = [
 ];
 
 function CAssemblyProjects() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <section className="Projects-section">
       <Link to="/" className="Back-link">← Back</Link>
