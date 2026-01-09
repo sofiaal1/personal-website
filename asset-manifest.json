@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.90bc1cd0.css",
-    "main.js": "/personal-website/static/js/main.2615bf43.js",
+    "main.js": "/personal-website/static/js/main.4d2368e5.js",
     "static/media/headshot.jpg": "/personal-website/static/media/headshot.6211c863ab61288d649f.jpg",
     "static/media/cinelogImage.png": "/personal-website/static/media/cinelogImage.8074e810816063910081.png",
     "static/media/villageFoodHubImage.png": "/personal-website/static/media/villageFoodHubImage.434f867ad7aaf845741b.png",
@@ -14,10 +14,10 @@
     "static/media/github-logo.svg": "/personal-website/static/media/github-logo.a2dcecaacdba94077f71818776dd805b.svg",
     "static/media/gmail-logo.svg": "/personal-website/static/media/gmail-logo.cf6e9da6207069eaa596237538127bcb.svg",
     "main.90bc1cd0.css.map": "/personal-website/static/css/main.90bc1cd0.css.map",
-    "main.2615bf43.js.map": "/personal-website/static/js/main.2615bf43.js.map"
+    "main.4d2368e5.js.map": "/personal-website/static/js/main.4d2368e5.js.map"
   },
   "entrypoints": [
     "static/css/main.90bc1cd0.css",
-    "static/js/main.2615bf43.js"
+    "static/js/main.4d2368e5.js"
   ]
 }
