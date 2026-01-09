@@ -1,7 +1,4 @@
-.App {
-  text-align: center;
-  min-height: 100vh;
-}
+/* Main app styling */
 
 .Layout {
   display: flex;
@@ -16,14 +13,55 @@
 
 /* Horizontal Navbar Styling */
 .Horizontal-navbar {
-  min-height: 100vh;
   min-height: auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
   gap: 20px;
   padding-right: 50px;
   padding-top: 30px;
+}
+
+.Horizontal-navbar a.Resume-link {
+  text-decoration: none;
+  color: white;
+  background-color: #9b7fd4;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 14px 20px;
+  border-radius: 50px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  border-bottom: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Horizontal-navbar a.Resume-link::after {
+  content: "→";
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.Horizontal-navbar a.Resume-link:hover {
+  background-color: #8566c4;
+  transform: translateY(-2px);
+  border-bottom: none;
+}
+
+.Horizontal-navbar a.Resume-link:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.Horizontal-navbar a:not(.Resume-link) {
+  display: flex;
+  align-items: center;
 }
 
 .Icon {
@@ -95,18 +133,18 @@
     "Helvetica Neue", Arial, sans-serif;
 }
 
-/* soft light-purple background behind the text */
 .Hero-highlight {
   background: linear-gradient(
     120deg,
-    rgba(217, 191, 255, 0.25),
-    rgba(196, 163, 255, 0.4)
+    rgba(155, 127, 212, 0.25),
+    rgba(133, 102, 196, 0.35)
   );
   padding: 0.25em 0.5em;
   border-radius: 12px;
 }
 
 /* About me section styling */
+
 .Row-layout {
   min-height: auto;
   display: flex;
@@ -140,23 +178,10 @@
   max-width: 500px;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #282c34;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 /* Projects Section */
+
 .Projects-section {
-  padding: 0 0 40px 50px;
+  padding: 40px 50px 70px 50px;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -164,8 +189,23 @@
 .Projects-title {
   font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   color: black;
+  text-align: center;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.Projects-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, #9b7fd4, #8566c4);
+  border-radius: 2px;
 }
 
 .Projects-subtitle {
@@ -257,7 +297,7 @@
 }
 
 .Project-link {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: #0066cc;
   text-decoration: none;
   font-weight: 500;
@@ -285,4 +325,54 @@
 
 .Back-link:hover {
   text-decoration: underline;
+}
+
+/* Skills Section */
+
+.Skills-section {
+  padding: 20px 50px 70px 50px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.Skills-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 50px;
+  color: black;
+  text-align: center;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.Skills-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(90deg, #9b7fd4, #8566c4);
+  border-radius: 2px;
+}
+
+.Skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.Skills-item {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+  margin: 0;
+}
+
+.Skills-item strong {
+  font-weight: 700;
+  color: black;
 }

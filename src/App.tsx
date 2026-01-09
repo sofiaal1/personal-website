@@ -5,6 +5,7 @@ import VerticalNavbar from './components/VerticalNavbar';
 import AboutMeSection from './components/AboutMeSection';
 import Projects from './components/Projects';
 import CAssemblyProjects from './components/CAssemblyProjects';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <>
                 <AboutMeSection />
                 <Projects />
+                <Skills />
               </>
             } />
             <Route path="/projects/c-assembly" element={<CAssemblyProjects />} />

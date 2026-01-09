@@ -4,7 +4,7 @@ import HeroHeading from "./HeroHeading";
 
 function AboutMeSection() {
   return (
-    <header className="Row-layout">
+    <header id="about" className="Row-layout">
       <img
         src={headshot}
         alt="Profile photo"

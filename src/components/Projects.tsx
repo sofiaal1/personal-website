@@ -28,6 +28,7 @@ const projectsData = [
         image: cinelogImage,
         presentationLink: "https://docs.google.com/presentation/d/1hSpGcmLWPzAGR50J4AVykjKA3A9zkaUoEHAZJe0X9mc/edit?usp=sharing",
         githubLink: "https://github.com/kubsgok/cinelog",
+        award: "Web Programming Final Project",
     },
     {
         id: 3,
@@ -37,6 +38,7 @@ const projectsData = [
             "I did pair programming on 8 different long-term projects for my Machine Structure & Assembly Language Class.",
         image: cs40Image,
         learnMoreLink: "/projects/c-assembly",
+        award: "Fall 2025",
     },
     {
         id: 4,
@@ -47,6 +49,7 @@ const projectsData = [
         image: filmSocietyImage,
         githubLink: "https://github.com/kubsgok/Honor-Society-Of-Cinematic-Arts",
         databaseLink: "https://www.figma.com/design/2YJyjg48ZRYbaQifVLEAcE/Entity-Relationship-Diagram-Template--Community-?node-id=0-1&p=f&t=p3xl0pMHHvvsAQQt-0",
+        award: "Fall 2025",
     },
     {
         id: 5,
@@ -57,6 +60,7 @@ const projectsData = [
         image: villageFoodHubImage,
         githubLink: "https://github.com/JumboCode/village-food-hub",
         presentationLink: "https://jumbocode.org/projects/village-food-hub",
+        award: "Sep 2024 - May 2025",
     },
     {
         id: 6,
@@ -73,7 +77,7 @@ const projectsData = [
 
 function Projects() {
     return (
-        <section className="Projects-section">
+        <section id="projects" className="Projects-section">
             <h2 className="Projects-title">Projects</h2>
             <div className="Projects-grid">
                 {projectsData.map((project) => (

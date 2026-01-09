@@ -14,7 +14,6 @@ const HeroHeading = () => {
       i += 1;
 
       if (i < fullText.length) {
-        // Slight randomness to make it feel more "human"
         const delay = 90 + Math.random() * 80; // ~90–170ms
         timeoutId = setTimeout(typeNext, delay);
       }
