@@ -7,7 +7,7 @@ function AboutMeSection() {
     <header id="about" className="Row-layout">
       <img
         src={headshot}
-        alt="Profile photo"
+        alt="Sofia Alvazzi"
         className="Headshot"
       />
       <div className="Column-layout">
