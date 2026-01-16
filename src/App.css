@@ -45,8 +45,8 @@
   content: "→";
   font-size: 1.2rem;
   font-weight: 300;
-  opacity: 0;
-  transform: translateX(-8px);
+  opacity: 1;
+  transform: translateX(0);
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
@@ -58,7 +58,7 @@
 
 .Horizontal-navbar a.Resume-link:hover::after {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateX(6px);
 }
 
 .Horizontal-navbar a:not(.Resume-link) {

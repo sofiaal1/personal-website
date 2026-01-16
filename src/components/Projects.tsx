@@ -108,7 +108,7 @@ function Projects() {
                                         rel="noopener noreferrer"
                                         className="Project-link"
                                     >
-                                        Github
+                                        GitHub
                                     </a>
                                 )}
                                 {project.devpostLink && (
