@@ -6,10 +6,12 @@ import AboutMeSection from './components/AboutMeSection';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import CAssemblyProjects from './components/CAssemblyProjects';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
     <Router>
+      <Analytics />
       <div className="Layout">
         <VerticalNavbar />
         <div className="Main">
